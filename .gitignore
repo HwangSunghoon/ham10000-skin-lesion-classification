@@ -1,0 +1,8 @@
+cat > .gitignore << 'EOF'
+HAM10000/
+runs_ham10000/
+*.pt
+*.pth
+__pycache__/
+.DS_Store
+EOF

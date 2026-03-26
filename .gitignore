@@ -1,8 +1,10 @@
-cat > .gitignore << 'EOF'
-HAM10000/
-runs_ham10000/
+HAM10000/*
+!HAM10000/README.txt
+
+runs_ham10000/*
+!runs_ham10000/README.txt
+
 *.pt
 *.pth
 __pycache__/
 .DS_Store
-EOF
